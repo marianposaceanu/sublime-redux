@@ -8,29 +8,29 @@ Current version: for windows.
 
 #### steps
 
-1. Install Package Control
-   
-    [command_to_install_pc](http://wbond.net/sublime_packages/package_control/installation)
+1. [Install Package Control](http://wbond.net/sublime_packages/package_control/installation)
 
 2. Install Soda UI theme
 
-        copy it to C:\Users\[user]\AppData\Roaming\Sublime Text 2\Packages
+    copy `Made of Code.tmTheme` to `C:\Users\[user]\AppData\Roaming\Sublime Text 2\Packages`
 
 3. Change icon
 
-    get icon from: [icon_link](https://github.com/dmatarazzo/Sublime-Text-2-Icon/raw/master/sublime_text.ico)
+    get icon from: [icon_link](https://github.com/dmatarazzo/Sublime-Text-2-Icon/raw/master/sublime_text.ico) (see changing the icon below)
     
-	Download [ResEdit](http://www.resedit.net/)
-
-	* Navigate to the installation folder for Sublime Text 2 (this should be in C:\Program Files\Sublime Text2). Copy `sublime_text.exe` to your desktop.*
-	* Run ResEdit, choose `File > Open Project ...`. Select the `sublime_text.exe` you copied to your desktop.
-	* In the Resources pane of ResEdit, right-click the Icon folder and choose `Add Resource > Icon...`.
-	* Navigate to the folder containing the `sublime_text.ico` file. Add it.
-	* Right-click the icon named `103 [English (Australia)]`, select `Remove from Project`.
-	* Save.
-	* Copy the `sublime_text.exe` on your desktop back to the Program Files folder from step 1.  
-
 4. Reset windows icon cache by running included .bat file
+
+
+#### changing the icon
+
+* download [ResEdit](http://www.resedit.net/)
+* navigate to the installation folder for Sublime Text 2 (this should be in C:\Program Files\Sublime Text2). Copy `sublime_text.exe` to your desktop.*
+* run ResEdit, choose `File > Open Project ...`. Select the `sublime_text.exe` you copied to your desktop.
+* in the Resources pane of ResEdit, right-click the Icon folder and choose `Add Resource > Icon...`.
+* navigate to the folder containing the `sublime_text.ico` file. Add it.
+* right-click the icon named `103 [English (Australia)]`, select `Remove from Project`.
+* save.
+* copy the `sublime_text.exe` on your desktop back to the Program Files folder from step 1.  
 
 
 #### credits
