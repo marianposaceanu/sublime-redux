@@ -31,6 +31,11 @@ Current version: for windows.
 * right-click the icon named `103 [English (Australia)]`, select `Remove from Project`.
 * save.
 * copy the `sublime_text.exe` on your desktop back to the Program Files folder from step 1.  
+ 
+ 
+#### nice packages
+
+* [helps with encodin strings](https://github.com/colinta/SublimeStringEncode)
 
 
 #### credits
