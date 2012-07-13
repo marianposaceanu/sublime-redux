@@ -38,6 +38,14 @@ Current version: for windows.
 * [helps with encodin strings](https://github.com/colinta/SublimeStringEncode)
 
 
+#### soft tabs with wto spaces (Preferences->Settings->User)
+
+    {
+      "tab_size": 2,
+      "translate_tabs_to_spaces": false
+    }
+
+
 #### credits
 
 * [Sublime Text](http://www.sublimetext.com)
