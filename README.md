@@ -44,7 +44,36 @@ Current version: for windows.
       "tab_size": 2,
       "translate_tabs_to_spaces": true
     }
+    
+    
+#### my current config file:
 
+    {
+      "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+      "font_size": 13,
+      "font_face": "Consolas",
+      "font_options":
+      [
+        // "standardantialias"
+        // "noantialias"
+        // "cleartypeantialias"
+        "subpixel_antialias"
+      ],
+      "ignored_packages":
+      [
+        "Vintage"
+      ],
+      "tab_size": 2,
+      "theme": "Soda Dark.sublime-theme",
+      "translate_tabs_to_spaces": true,
+      "trim_trailing_white_space_on_save": true,
+      "draw_white_space": "all",
+      "rulers":
+      [
+          72, 79
+      ],
+      "sublimelinter_popup_errors_on_save": true
+    }
 
 #### credits
 
