@@ -10,9 +10,9 @@ Current version: for windows.
 
 1. [Install Package Control](http://wbond.net/sublime_packages/package_control/installation)
 
-2. Install Soda UI theme
+2. Install Soda UI theme and [Tomorrow Theme color scheme](https://github.com/chriskempson/tomorrow-theme)
 
-    copy `Made of Code.tmTheme` to `C:\Users\[user]\AppData\Roaming\Sublime Text 2\Packages`
+    install them both via Package Manager
 
 3. Change icon
 
