@@ -74,6 +74,10 @@ Current version: for windows.
       ],
       "sublimelinter_popup_errors_on_save": true
     }
+    
+#### SublimeText with Rails
+
+* [Tips for Rails](https://github.com/mhartl/rails_tutorial_sublime_text)
 
 #### credits
 
