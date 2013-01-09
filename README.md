@@ -11,14 +11,31 @@ Current version: for windows.
 1. [Install Package Control](http://wbond.net/sublime_packages/package_control/installation)
 
 2. Install Soda UI theme and [Tomorrow Theme color scheme](https://github.com/chriskempson/tomorrow-theme)
+    
+    ```
+    Package Control Install Package : Tomorrow Theme color scheme
+    Package Control Install Package : Soda UI theme
+    ```
+    
+3. Install [Phoenix theme](https://github.com/netatoo/phoenix-theme) : `Package Control Install Package Phoenix theme`
+    
+    ```JS
+    {
+      "theme": "Phoenix Dark.sublime-theme",
+      "phoenix_color_red": true,
+	  "phoenix_highlight_current_tab": true,
+	  "phoenix_eighties": true,
+	  "phoenix_solid_current_tab": true,
+	  "phoenix_dirty_bottom_bar": true,
+	  "phoenix_tabs_auto_width": true
+    }
+    ```
 
-    install them both via Package Manager
-
-3. Change icon
+4. Change icon
 
     get icon from: [icon_link](https://github.com/dmatarazzo/Sublime-Text-2-Icon/raw/master/sublime_text.ico) (see changing the icon below)
     
-4. Reset windows icon cache by running included .bat file
+5. Reset windows icon cache by running included .bat file
 
 
 #### changing the icon
@@ -39,41 +56,40 @@ Current version: for windows.
 
 
 #### soft tabs with two spaces (Preferences->Settings->User)
-
-    {
-      "tab_size": 2,
-      "translate_tabs_to_spaces": true
-    }
+    
+```JS
+{
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}
+```
     
     
 #### my current config file:
 
-    {
-      "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
-      "font_size": 13,
-      "font_face": "Consolas",
-      "font_options":
-      [
-        // "standardantialias"
-        // "noantialias"
-        // "cleartypeantialias"
-        "subpixel_antialias"
-      ],
-      "ignored_packages":
-      [
-        "Vintage"
-      ],
-      "tab_size": 2,
-      "theme": "Soda Dark.sublime-theme",
-      "translate_tabs_to_spaces": true,
-      "trim_trailing_white_space_on_save": true,
-      "draw_white_space": "all",
-      "rulers":
-      [
-          72, 79
-      ],
-      "sublimelinter_popup_errors_on_save": true
-    }
+```JS
+{
+  "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+  "font_size": 14,
+  "font_face": "Consolas",
+  "font_options":
+  [
+    // "standardantialias" or "noantialias" or "cleartypeantialias"
+    "subpixel_antialias"
+  ],
+  "ignored_packages": [ "Vintage" ],
+  "tab_size": 2,
+  "theme": "Soda Dark.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "draw_white_space": "all",
+  "rulers":
+  [
+      70, 80
+  ],
+  "sublimelinter_popup_errors_on_save": true
+}
+```
     
 #### SublimeText with Rails
 
