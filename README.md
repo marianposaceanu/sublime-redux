@@ -90,7 +90,19 @@ Current version: for windows.
   "sublimelinter_popup_errors_on_save": true
 }
 ```
-    
+
+#### useful key bindings for hiding project pane and minimap 
+
+`go to Preferences > Key Bindings — User and add`
+
+```JS
+[
+  { "keys": ["super+ctrl+h"], "command": "toggle_minimap" },
+  { "keys": ["super+ctrl+b"], "command": "toggle_side_bar" }
+]
+
+```
+
 #### SublimeText with Rails
 
 * [Tips for Rails](https://github.com/mhartl/rails_tutorial_sublime_text)
