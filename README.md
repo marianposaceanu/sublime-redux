@@ -37,6 +37,8 @@ Current version: for windows.
     
 5. Reset windows icon cache by running included .bat file
 
+7. You can also try the awesome [Boron](https://github.com/mjio/boron.tmtheme) Color scheme : `Package Control Install Boron theme`
+
 
 #### changing the icon
 
