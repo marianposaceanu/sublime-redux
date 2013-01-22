@@ -1,6 +1,6 @@
 # sublime-redux
 
-Simple sublime-text boiler-plate for quick config after a fresh install. 
+Simple sublime-text boiler-plate for quick config after a fresh install.
 
 The purpose of this: quick and easy way to customize sublime-text to get it ready for some sweet coding.
 
@@ -11,14 +11,14 @@ Current version: for windows.
 1. [Install Package Control](http://wbond.net/sublime_packages/package_control/installation)
 
 2. Install Soda UI theme and [Tomorrow Theme color scheme](https://github.com/chriskempson/tomorrow-theme)
-    
+
     ```
     Package Control Install Package : Tomorrow Theme color scheme
     Package Control Install Package : Soda UI theme
     ```
-    
+
 3. Install [Phoenix theme](https://github.com/netatoo/phoenix-theme) : `Package Control Install Package Phoenix theme`
-    
+
     ```JS
     {
       "theme": "Phoenix Dark.sublime-theme",
@@ -34,10 +34,12 @@ Current version: for windows.
 4. Change icon
 
     get icon from: [icon_link](https://github.com/dmatarazzo/Sublime-Text-2-Icon/raw/master/sublime_text.ico) (see changing the icon below)
-    
+
 5. Reset windows icon cache by running included .bat file
 
 7. You can also try the awesome [Boron](https://github.com/mjio/boron.tmtheme) Color scheme : `Package Control Install Boron theme`
+
+8. Also added Faenza Icon (in icon folder) via [stsmuniz](http://gnome-look.org/content/show.php/?content=147424)
 
 
 #### changing the icon
@@ -49,24 +51,24 @@ Current version: for windows.
 * navigate to the folder containing the `sublime_text.ico` file. Add it.
 * right-click the icon named `103 [English (Australia)]`, select `Remove from Project`.
 * save.
-* copy the `sublime_text.exe` on your desktop back to the Program Files folder from step 1.  
- 
- 
+* copy the `sublime_text.exe` on your desktop back to the Program Files folder from step 1.
+
+
 #### nice packages
 
 * [helps with encodin strings](https://github.com/colinta/SublimeStringEncode)
 
 
 #### soft tabs with two spaces (Preferences->Settings->User)
-    
+
 ```JS
 {
   "tab_size": 2,
   "translate_tabs_to_spaces": true
 }
 ```
-    
-    
+
+
 #### my current config file:
 
 ```JS
@@ -93,7 +95,7 @@ Current version: for windows.
 }
 ```
 
-#### useful key bindings for hiding project pane and minimap 
+#### useful key bindings for hiding project pane and minimap
 
 `go to Preferences > Key Bindings — User and add`
 
