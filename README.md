@@ -106,7 +106,7 @@ The purpose of this: quick and easy way to customize sublime-text to get it read
 
 ```
 
-#### SublimeText with Rails
+#### sublime text with Rails
 
 * [Tips for Rails](https://github.com/mhartl/rails_tutorial_sublime_text)
 
