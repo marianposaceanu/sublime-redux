@@ -56,6 +56,7 @@ The purpose of this: quick and easy way to customize sublime-text to get it read
 #### nice packages
 
 * [helps with encodin strings](https://github.com/colinta/SublimeStringEncode)
+* [git gutter](http://www.jisaacks.com/gitgutter) [project home](https://github.com/jisaacks/GitGutter#readme)
 
 
 #### soft tabs with two spaces (Preferences->Settings->User)
