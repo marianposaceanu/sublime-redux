@@ -57,6 +57,9 @@ The purpose of this: quick and easy way to customize sublime-text to get it read
 
 * [helps with encodin strings](https://github.com/colinta/SublimeStringEncode)
 * [git gutter](http://www.jisaacks.com/gitgutter) [project home](https://github.com/jisaacks/GitGutter#readme)
+* [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
+* [SublimeAllAutocomplete](https://github.com/alienhard/SublimeAllAutocomplete)
+* [TrailingSpaces](https://github.com/SublimeText/TrailingSpaces)
 
 
 #### soft tabs with two spaces (Preferences->Settings->User)
@@ -102,7 +105,10 @@ The purpose of this: quick and easy way to customize sublime-text to get it read
 ```JS
 [
   { "keys": ["super+ctrl+h"], "command": "toggle_minimap" },
-  { "keys": ["super+ctrl+b"], "command": "toggle_side_bar" }
+  { "keys": ["super+ctrl+b"], "command": "toggle_side_bar" },
+  { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar"},
+  { "keys": ["super+v"], "command": "paste_and_indent" }, 
+  { "keys": ["super+shift+v"], "command": "paste" }
 ]
 
 ```
@@ -111,7 +117,7 @@ The purpose of this: quick and easy way to customize sublime-text to get it read
 
 * [Tips for Rails](https://github.com/mhartl/rails_tutorial_sublime_text)
 
-#### Nice themes
+#### nice themes
 
 * [flatland](https://github.com/thinkpixellab/flatland)
 
@@ -122,3 +128,4 @@ The purpose of this: quick and easy way to customize sublime-text to get it read
 * [Resource Editor](http://www.resedit.net)
 * [Awesome icon by dmatarazzo](https://github.com/dmatarazzo/Sublime-Text-2-Icon)
 * [Rebuild cache by Shawn Brink](http://www.sevenforums.com/tutorials/49819-icon-cache-rebuild.html)
+* [Setting up Sublime Text 2](http://blog.alexmaccaw.com/sublime-text)
