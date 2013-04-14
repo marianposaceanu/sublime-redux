@@ -111,6 +111,10 @@ The purpose of this: quick and easy way to customize sublime-text to get it read
 
 * [Tips for Rails](https://github.com/mhartl/rails_tutorial_sublime_text)
 
+#### Nice themes
+
+* [flatland](https://github.com/thinkpixellab/flatland)
+
 #### credits
 
 * [Sublime Text](http://www.sublimetext.com)
