@@ -39,6 +39,7 @@ The purpose of this: quick and easy way to customize sublime-text to get it read
 
 8. Also added Faenza Icon (in icon folder) via [stsmuniz](http://gnome-look.org/content/show.php/?content=147424)
 
+9. Launch Sublime Text 2 from the Mac OS X Terminal : [instructions](http://www.sublimetext.com/docs/2/osx_command_line.html)
 
 #### changing the icon
 
